@@ -3,6 +3,13 @@ body {
   font-family: "Times New Roman", Times, serif;
   background-color: #f5f5dc;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px; 40px;
+}
+
 
 .container {
   display: flex;
