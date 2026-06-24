@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f5f5dc;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0px 5px 15px rgba(245, 5, 5, 0.25);
+  transition: 0.5s;
+  overflow: hidden;
+}
+.card:hover {
+  transform: translateY(8px);
+}
+
+.basic-price {
+  color: #2f88ff;
+}
+
+.standard-price {
+  color: #012562;
+}
+
+.premium-price {
+  color: #6f00ff;
+}
+
+.basic-price span {
+  color: #000000;
+  font-size: 16px;
+}
+
+.standard-price span {
+  color: #000000;
+  font-size: 16px;
+}
+.premium-price span {
+  color: #000000;
+  font-size: 16px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 1opx 0;
+}
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+button {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background: linear-gradient(to right, #00bfff, #8a2be2);
+  color: #f5f5dc;
+}
+button:hover {
+  background: linear-gradient(to right, #2f88ff, #012562);
+  color: #ffffff;
+}
